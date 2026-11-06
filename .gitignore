@@ -1,0 +1,14 @@
+# Never commit server credentials or backups
+server.key
+server.pub
+*.key
+*.pem
+*.p12
+*.pfx
+*.enc
+*.tar
+*.tar.gz
+*.zip
+.env
+.env.*
+backups/
